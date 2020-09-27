@@ -13,16 +13,26 @@ Grupo | Descripción
 \W  | Cualquier carácter que no sea alfanumérico  
 \S  | Cualquier carácter que no sea un espacio en blanco  
 .   | Cualquier carácter excepto nuevas líneas
+^\W  | Cualquier tipo de letra al inicio
 
-// [^] si lo usamos dentro de un corchete es como si fuera un negación
+?    Cualquiera de los datos pueden o no estar en la cadena.
 
-// + permite mas valores repetidos dentro de los patrones que se estén evaluando
+[^]  Si lo usamos dentro de un corchete es como si fuera una negación.
 
-// ^ Inicio
-// $ Fin
++    permite uno o mas valores repetidos dentro de los patrones que se estén            evaluando.
 
-// alt + 1 // podemos sacar el simbolog py |
+^    Debe existir al Inicio.
+
+$    Debe existir al final de la cadena.
+
+*    Puede o no estar: es decir va a aplicar 0 o más veces.
+
+
+alt + 1  // podemos sacar el simbolog py |
+
 
 “JavaScript avanzado: Expresiones regulares”
+
+## By Yojan Hungría
 
 
