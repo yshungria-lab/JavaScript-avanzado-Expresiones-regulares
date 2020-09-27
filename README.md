@@ -16,6 +16,8 @@ Grupo | Descripción
 
 // [^] si lo usamos dentro de un corchete es como si fuera un negación
 
+// + permite mas valores repetidos dentro de los patrones que se estén evaluando
+
 // ^ Inicio
 // $ Fin
 
