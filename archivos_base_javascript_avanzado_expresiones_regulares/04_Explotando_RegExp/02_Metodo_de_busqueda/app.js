@@ -4,3 +4,4 @@ var mensaje = 'Estahistoriacontinuara';
 //  \S Cualquier carácter que no sea un espacio en blanco
 
 console.log(mensaje.search(/\W/));
+console.log(mensaje.search(/\S/));

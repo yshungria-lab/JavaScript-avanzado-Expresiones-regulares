@@ -10,7 +10,7 @@
 // console.log(coincidencia);
 // console.log(expresion1.lastIndex);
 
-var expresion2 = /\d/g;
+let expresion2 = /\d/g;
 
 console.log(expresion2.exec('Pedí 4 tacos y 1 agua'));
 console.log(expresion2.exec('Pedí 4 tacos y 1 agua'));
